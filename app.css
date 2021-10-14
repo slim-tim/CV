@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(54, 54, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url('background-2.jpg')
+}
+
+.body {
+    display: flex;
+}
+
+.left {
+    position: sticky;
+    top: 8em;
+    margin: 8em 2em 4em 4em;
+    padding: 1.8em;
+    width: 15em;
+    height: 30em;
+    background-color: rgb(252, 251, 249);
+    border: 1px solid rgb(236, 234, 227);
+    border-radius: 40px;
+    
+}
+
+img {
+    position: relative;
+    bottom: 7em;
+    left: 0.5em;
+    width: 200px;
+    border-radius: 70px;
+}
+
+h1 {
+    margin: auto;
+    padding: 4px;
+    font-size: 2.3em;
+}
+
+h2 {
+    padding-bottom: 25px;
+    font-size: 1.35em;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: 2em;
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+span a:hover {
+    border-radius: 10px;
+    background-color: rgb(185, 179, 179);
+}
+
+i {
+    font-size: 1.2em;
+    padding: 4px;
+}
+
+p {
+    padding-bottom: 3px;
+}
+
+.p1 {
+    position: relative;
+    top: 2em;
+}
+
+.div1 {
+    position: relative;
+    bottom: 6.5em;
+}
+
+
+.right {
+    margin: 8em 4em 4em 2em;
+    padding: 4em;
+    width: 100em;
+    height: 165em;
+    background-color: rgb(252, 251, 249);
+    border: 1px solid rgb(236, 234, 227);
+    border-radius: 40px;
+    line-height: 25px;
+}
+
+
+.flextab {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+button {
+    margin: 15px;
+    margin-top: 0;
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+}
+
+.occupation {
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.ph{
+    display: flex;
+}
+
+.ph1 {
+    padding-right: 10px;
+}
+
+.ref {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.input-box {
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 10px;
+}
+
+.send {
+    margin-top: 30px;
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.send:hover {
+    background-color: rgb(206, 203, 203);
+}
+
+.msg-tab {
+    margin-left: 20px;
+}
